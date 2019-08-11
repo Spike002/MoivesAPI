@@ -1,0 +1,83 @@
+*{
+  font-family: serif;
+
+}
+.navbar {
+  background-color: #490707;
+}
+
+nav a {
+  color: #fff;
+  font-size: 25px;
+  padding: 10px auto;
+}
+
+.jumbotron {
+  background-color: #FF5733;
+}
+
+.jumbotron h3{
+  color: #fff;
+  font-size: 36px;
+}
+
+.jumbotron input{
+  border-radius: 10px;
+}
+
+div .col-md-3 button {
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #1564D8;
+  border-radius: 5px;
+  border: 2px solid #1564D8;
+  margin-bottom: 20px;
+}
+div .col-md-3 button:hover {
+  background-color: #1564D8;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#go-to-movieIMDBID{
+  padding: 10px 15px;
+  background-color: #C6B503;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+#go-to-index{
+  padding: 10px 15px;
+  background-color: #490707;
+  margin-left: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.well h3{
+  margin-top: 20px;
+}
+
+#movies img, #movie img{
+  width: 100%;
+  padding: 20px 10px;
+}
+.col-md-8 h2{
+  padding-top: 20px;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height: 240px;
+  }
+
+}
